@@ -4,7 +4,7 @@ pipeline{
         stage("git clone"){
             steps{
                 echo "cloning to git"
-                git url : 'https://github.com/Arushi9740/student-repo.git', branch : 'main'
+                git url : 'https://github.com/Arushi9740/school.git', branch : 'main'
             }
         }
         stage("setup dependency"){
